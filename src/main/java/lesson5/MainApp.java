@@ -15,7 +15,7 @@ public class MainApp {
         employees[4] = new Employee("Николаев Николай Николаевич", "Аналитик", "asdfghjk@mail.ru", 81111111111l, 35000, 28);
 
         for (int i = 0; i < employees.length; i++){//Задание 5
-            if (employees[i].age >= 40){
+            if (employees[i].getAge() >= 40){
                 employees[i].print();
             }
         }
