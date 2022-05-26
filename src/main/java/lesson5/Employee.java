@@ -8,7 +8,7 @@ public class Employee {
     private int salary;
     private int age;
 
-    public Employee (String fcs, String post, String email, long number, int salary, int age) {
+    public Employee(String fcs, String post, String email, long number, int salary, int age) {
         this.fcs = fcs;
         this.post = post;
         this.email = email;
@@ -73,7 +73,7 @@ public class Employee {
         return "Фамилия Имя Отчество: " + fcs + ", Должность: " + post + ", email: " + email + ", Номер телефона: " + number + ", з/п: " + salary + ", Возраст: " + age;
     }
 
-    public void print(){
+    public void print() {
         System.out.println(this);
     }
 }

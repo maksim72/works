@@ -1,5 +1,8 @@
 package lesson5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainApp {
     public static void main(String[] args) {
         Employee emp = new Employee("Вожаков Максим Аркадьевич", "Аналитик", "asdfghjk@mail.ru", 81111111111l, 35000, 25);
